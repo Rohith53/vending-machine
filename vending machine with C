@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    int ticket_no, ticket_amt, balance;
+    int ticket_price = 5; 
+    printf("number of tickets: ");
+        scanf("%d",&ticket_no);
+      
+     if(ticket_no >= 1)
+    {
+        
+        printf("insert the coin: ");
+        scanf("%d",&ticket_amt);
+        
+        if(ticket_amt / 5)
+        {
+            printf("no of tickets for you: %d",ticket_no);
+            
+             }
+        else{
+            printf("insufficient amt");
+        }
+    }
+    
+
+    return 0;
+}
